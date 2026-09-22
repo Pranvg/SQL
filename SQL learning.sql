@@ -48,3 +48,11 @@ CREATE TABLE IF NOT EXISTS post (
 SELECT name, followers, email
 FROM users
 WHERE email IN ("adam@yahoo.in", "bob@yahoo.in", "abc@gmail.com");
+
+
+
+
+
+SELECT name, age, followers, email
+FROM users
+WHERE age NOT IN (14, 16) ;
