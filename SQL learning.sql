@@ -38,3 +38,13 @@ CREATE TABLE IF NOT EXISTS post (
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
+
+
+
+
+
+
+
+SELECT name, followers, email
+FROM users
+WHERE email IN ("adam@yahoo.in", "bob@yahoo.in", "abc@gmail.com");
